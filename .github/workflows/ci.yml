@@ -9,17 +9,19 @@ on:
       - main
 jobs:
   build:
-    name: 'Run Build'
+    name: 'Install Dependencies'
+    # Specify the OS we want the workflow to run on
     runs-on: ubuntu-latest
+    # Define the steps for this job
     steps:
       - uses: actions/checkout@v2
         name: 'Checkout repository'
-      
+
       - name: 'Install Dependencies'
         run: npm install
 
-      - name: 'Run development server'
+      - name: 'Compile'
         run: npm run dev
 
-      - name: 'Build project'
+      - name: 'Compile Production'
         run: npm run build
