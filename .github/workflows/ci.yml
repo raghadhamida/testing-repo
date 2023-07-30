@@ -1,4 +1,4 @@
-name: Continous Integration Workflow
+name: Continous Integration workflow
 
 on:
   pull_request:
