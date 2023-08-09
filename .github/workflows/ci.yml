@@ -22,9 +22,3 @@ jobs:
       
       - name: 'Install Dependencies'
         run: npm install
-        
-      - name: Run development server
-        run: npm run dev
-        
-      - name: Build project
-        run: npm run build
