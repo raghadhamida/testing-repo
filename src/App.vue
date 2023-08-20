@@ -111,7 +111,7 @@ body {
   content: "";
   border-radius: 25px;
   background: var(--primary-500);
-  width: 17px;
+  width: 16px;
   height: 16px;
   opacity: 0;
   position: absolute;
