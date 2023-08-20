@@ -27,3 +27,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Editing Nada as developer 1 content
